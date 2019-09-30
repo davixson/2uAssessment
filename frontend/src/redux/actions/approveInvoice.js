@@ -42,7 +42,7 @@ const approveInvoice = (invoice) => {
     
 }
 
-//TODO add code for websockets 
+//TODO "User story 2 - Acceptance criteria 5" -> add code for websockets or server-sent events
 
 const selectInvoice = invoice => {
     return {
