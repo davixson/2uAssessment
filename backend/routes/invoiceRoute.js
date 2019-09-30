@@ -28,6 +28,9 @@ router.post('/', async (req, res) => {
     try {
         let savedInvoice = await invoice.save();
         res.json({message: 'Invoice submitted successfully!.'});    
+
+        //TODO weksockets code to send the new invoice to client
+        
     } catch (err) {
         res.json({message: err});
     }

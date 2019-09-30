@@ -42,6 +42,8 @@ const approveInvoice = (invoice) => {
     
 }
 
+//TODO add code for websockets 
+
 const selectInvoice = invoice => {
     return {
         type: SELECT_INVOICE,
